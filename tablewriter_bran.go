@@ -28,16 +28,16 @@ type userModel struct {
 func main() {
     user := userModel{}
     user.id = "123456789"
-    user.name = "chen_chang_sheng"
+    user.name = "陈长生 徐有容"
     res, _ := formatUser(user)
     fmt.Printf(res)
 }
 
 //OUTPUT:
 /*
-+-----------+-------------------+
-|    ID     |       NAME        |
-+-----------+-------------------+
-| 123456789 | chen_chang_sheng |
-+-----------+-------------------+
++-----------+---------------+
+|    ID     |     NAME      |
++-----------+---------------+
+| 123456789 | 陈长生 徐有容 |
++-----------+---------------+
 */
